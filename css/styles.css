@@ -22,7 +22,7 @@ body {
   background-color: #ffffff;
 }
 
-.web-link {
+.web {
   font-family: var(--raleway);
   font-weight: 800;
   font-size: 18px;
@@ -30,9 +30,33 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+}
+
+.studio {
+  color: var(--navy-blue);
+}
+
+.link {
   text-decoration: none;
 }
 
-.studio-link {
+.list {
+  list-style-type: none;
+}
+
+.list-1 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--navy-blue);
+}
+
+.list-1:hover,
+.list-1:focus {
+  color: var(--ocean);
+}
+
+.address {
+  font-style: normal;
 }
