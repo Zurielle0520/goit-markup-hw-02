@@ -56,10 +56,10 @@ body {
   list-style-type: none;
 }
 
-.menu :hover,
-.menu :focus,
-.address :hover,
-.address :focus {
+.menu:hover,
+.menu:focus,
+.address:hover,
+.address:focus {
   color: var(--ocean);
 }
 
@@ -95,7 +95,7 @@ body {
   cursor: pointer;
 }
 
-.button :hover,
-.button :focus {
+.button:hover,
+.button:focus {
   background-color: var(--ocean);
 }
