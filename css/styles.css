@@ -42,9 +42,12 @@ body {
 
 .list {
   list-style-type: none;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
 
-.list-1 {
+.menu {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -52,8 +55,8 @@ body {
   color: var(--navy-blue);
 }
 
-.list-1:hover,
-.list-1:focus {
+.menu:hover,
+.menu:focus {
   color: var(--ocean);
 }
 
