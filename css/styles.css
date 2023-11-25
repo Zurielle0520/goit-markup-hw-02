@@ -22,7 +22,7 @@ body {
   background-color: #ffffff;
 }
 
-.web-link {
+.web {
   font-family: var(--raleway);
   font-weight: 800;
   font-size: 18px;
@@ -30,9 +30,12 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-  text-decoration: none;
 }
 
-.studio-link {
+.studio {
   color: var(--navy-blue);
+}
+
+.link {
+  text-decoration: none;
 }
