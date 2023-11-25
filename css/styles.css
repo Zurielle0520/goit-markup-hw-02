@@ -30,11 +30,19 @@ body {
   --roboto: 'Roboto', sans-serif;
 }
 
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
 .head {
   line-height: 1.5;
 }
 
-.logo-web {
+.web-link {
   color: var(--iris);
   font-family: var(--raleway);
   font-size: 18px;
@@ -45,7 +53,7 @@ body {
   font-weight: 800;
 }
 
-.logo-studio {
+.studio-link {
   color: var(--navy-blue);
   font-family: var(--raleway);
   font-size: 18px;
@@ -68,11 +76,11 @@ body {
 }
 
 .menu-link {
-  color: var(--navy-blue);
+  color: var(--navy-blue-modal);
   font-size: 16px;
-  font-weight: 700;
-  line-height: 150%;
-  letter-spacing: 0.32px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-decoration: inherit;
 }
 
