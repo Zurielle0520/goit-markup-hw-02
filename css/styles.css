@@ -21,3 +21,14 @@ body {
   color: var(--slate);
   background-color: #ffffff;
 }
+
+.link {
+  font-family: var(--raleway);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+  text-decoration: none;
+}
