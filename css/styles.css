@@ -16,12 +16,14 @@
   --roboto: 'Roboto', sans-serif;
 }
 
+/*BODY-DEFAULT*/
 body {
   font-family: var(--roboto);
   color: var(--slate);
   background-color: #ffffff;
 }
 
+/*LOGO*/
 .web {
   font-family: var(--raleway);
   font-weight: 800;
@@ -36,17 +38,7 @@ body {
   color: var(--navy-blue);
 }
 
-.link {
-  text-decoration: none;
-}
-
-.list {
-  list-style-type: none;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--slate);
-}
-
+/*MENU*/
 .menu {
   font-weight: 500;
   font-size: 16px;
@@ -55,11 +47,25 @@ body {
   color: var(--navy-blue);
 }
 
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
 .menu:hover,
-.menu:focus {
+.menu:focus,
+.address:hover,
+.address:focus {
   color: var(--ocean);
 }
 
+/*ADDRESS*/
 .address {
   font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
