@@ -108,7 +108,8 @@ body {
   color: var(--navy-blue);
 }
 
-.features-paragraph {
+.paragraph {
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -127,6 +128,6 @@ body {
   background-color: var(--cloud);
 }
 
-.mark {
+.mark-guerrero {
   background-color: #ffffff;
 }
