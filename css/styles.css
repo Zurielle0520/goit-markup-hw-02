@@ -100,7 +100,7 @@ body {
   background-color: var(--ocean);
 }
 
-.features-title {
+.title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -111,4 +111,22 @@ body {
 .features-paragraph {
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.what_we_do-title,
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.section-four {
+  background-color: var(--cloud);
+}
+
+.mark {
+  background-color: #ffffff;
 }
