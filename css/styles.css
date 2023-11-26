@@ -20,7 +20,7 @@
 body {
   font-family: var(--roboto);
   color: var(--slate);
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 
 /*LOGO*/
@@ -129,5 +129,19 @@ body {
 }
 
 .team-list {
-  background-color: #ffffff;
+  background-color: var(--white);
+}
+
+.footer {
+  background-color: var(--navy-blue);
+}
+
+.footer-studio {
+  color: var(--cloud);
+}
+
+.footer-paragraph {
+  color: var(--cloud);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
