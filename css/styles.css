@@ -99,3 +99,16 @@ body {
 .button:focus {
   background-color: var(--ocean);
 }
+
+.features-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.features-paragraph {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
